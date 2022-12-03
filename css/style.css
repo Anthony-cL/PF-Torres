@@ -91,4 +91,15 @@ footer {
 .peluqueria__img img {
   border: 5px solid #4289ac;
 }
+
+/* Pagina QUIENES SOMOS */
+
+.quienesSomos__contenedor {
+  margin: 5rem auto 1rem auto;
+}
+
+.banner {
+  margin-top: 4rem;
+}
+
 /*# sourceMappingURL=style.css.map */
