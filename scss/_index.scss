@@ -28,8 +28,19 @@
   .boton {
     font-family: $fuente-principal;
   }
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
 }
 
+.banner {
+  @include banner;
+}
 .row {
   @include centrar;
 }

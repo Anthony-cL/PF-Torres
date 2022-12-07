@@ -6,7 +6,6 @@
 
 header {
   background-color: #4289ac;
-  height: 4.5rem;
 }
 header .nav-link {
   color: white;
@@ -61,6 +60,19 @@ footer .footer__iconos img {
 .section1 .boton {
   font-family: roboto;
 }
+@media (max-width: 700px) {
+  .section1 h1 {
+    font-size: 3rem;
+  }
+  .section1 p {
+    font-size: 1rem;
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
 
 .row {
   display: flex;
@@ -77,6 +89,57 @@ footer .footer__iconos img {
 }
 .caja-card .p_text {
   margin-top: 1.5rem;
+}
+
+.peluqueria__contenedor {
+  margin-top: 6rem;
+}
+
+.peluqueria__img img {
+  border: 5px solid #4289ac;
+}
+
+.peluqueria__title {
+  margin-bottom: 1rem;
+  font-family: roboto;
+  font-size: 10rem;
+}
+.peluqueria__title .peluqueria__sub {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1235px) {
+  .boton-contactanos {
+    margin-bottom: 2rem;
+  }
+}
+.banner h3 {
+  font-size: 2rem;
+}
+
+.medicina__box {
+  flex-direction: column;
+}
+.medicina__box h5 {
+  font-size: 1.3rem;
+}
+.medicina__box .medicina__p p {
+  font-family: roboto;
+}
+
+.medicina__img {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.medicina__img img {
+  border: 5px solid #4289ac;
+}
+
+@media (max-width: 1235px) {
+  .boton-contactanos {
+    margin-bottom: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,3 +17,8 @@
   align-self: center;
   align-items: center;
 }
+
+@mixin banner {
+  display: flex;
+  justify-content: center;
+}
