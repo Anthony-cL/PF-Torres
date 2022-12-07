@@ -1,0 +1,14 @@
+// Navbar //
+
+header {
+  background-color: $color-navbar;
+  height: 4.5rem;
+
+  .nav-link {
+    color: $color-navbar-items;
+  }
+
+  a:hover {
+    color: black;
+  }
+}

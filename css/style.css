@@ -1,3 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  background-color: #4289ac;
+  height: 4.5rem;
+}
+header .nav-link {
+  color: white;
+}
+header a:hover {
+  color: black;
+}
+
+footer {
+  background-color: #4289ac;
+  width: 100%;
+  height: auto;
+  border-top: solid #4289ac 5px;
+}
+footer .card-body {
+  text-align: center;
+}
+footer .footer__text {
+  color: white;
+  font-family: roboto;
+}
+footer .footer__iconos img {
+  width: 25px;
+}
+
+.container1 {
+  margin: auto;
+  max-width: 1320px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35rem;
+  background-image: url(../img/fondo_inicio.jpg);
+  padding-top: 10rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section1 h1 {
+  color: white;
+  font-family: roboto;
+  font-size: 4.5rem;
+}
+.section1 p {
+  color: white;
+  font-family: roboto;
+  font-size: 1.5rem;
+}
+.section1 .boton {
+  font-family: roboto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.caja-card {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+.caja-card .p_text {
+  margin-top: 1.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */

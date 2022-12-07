@@ -1,0 +1,44 @@
+// Index //
+
+.container1 {
+  margin: auto;
+  max-width: 1320px;
+}
+
+.section1 {
+  @include flexCaja;
+  height: 35rem;
+  background-image: url(../img/fondo_inicio.jpg);
+  padding-top: 10rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  h1 {
+    color: white;
+    font-family: $fuente-principal;
+    font-size: $titulo-principal;
+  }
+  p {
+    color: white;
+    font-family: $fuente-principal;
+    font-size: $sub-titulo;
+  }
+
+  .boton {
+    font-family: $fuente-principal;
+  }
+}
+
+.row {
+  @include centrar;
+}
+
+.caja-card {
+  @include centrar;
+  @include centrar-texto;
+
+  .p_text {
+    margin-top: 1.5rem;
+  }
+}
