@@ -136,10 +136,25 @@ footer .footer__iconos img {
   border: 5px solid #4289ac;
 }
 
+.quienesSomos__subTitle {
+  font-size: 1.5rem;
+  font-family: roboto;
+}
+
 @media (max-width: 1235px) {
   .boton-contactanos {
     margin-bottom: 2rem;
   }
+}
+.Contacto__contenedor {
+  margin-top: 3rem;
+}
+
+.card h3 {
+  font-family: roboto;
+}
+.card p {
+  font-family: roboto;
 }
 
 /*# sourceMappingURL=style.css.map */
