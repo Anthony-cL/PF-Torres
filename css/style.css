@@ -10,7 +10,7 @@ header {
 header .nav-link {
   color: white;
 }
-header a:hover {
+header .nav-link a:hover {
   color: black;
 }
 
@@ -94,8 +94,7 @@ footer .footer__iconos img {
 .peluqueria__contenedor {
   margin-top: 6rem;
 }
-
-.peluqueria__img img {
+.peluqueria__contenedor .peluqueria__img img {
   border: 5px solid #4289ac;
 }
 
