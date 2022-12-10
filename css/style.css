@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+.banner-movimiento {
+  animation-duration: 2s;
+  animation-name: mover;
+}
+
+@keyframes mover {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
 header {
   background-color: #4289ac;
 }
@@ -147,6 +160,22 @@ footer .footer__iconos img {
 }
 .Contacto__contenedor {
   margin-top: 3rem;
+}
+
+.banner-contacto h3:hover {
+  color: rgb(153, 168, 168);
+}
+
+form .form-label {
+  font-family: roboto;
+  font-size: 18px;
+}
+form .form-check-label {
+  font-family: roboto;
+  font-size: 16px;
+}
+form .btn {
+  font-family: roboto;
 }
 
 .card h3 {
