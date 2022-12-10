@@ -27,7 +27,14 @@
 
   .boton {
     font-family: $fuente-principal;
+    .boton:hover {
+      opacity: 0.5;
+    }
+    a {
+      color: $color-boton;
+    }
   }
+
   @media (max-width: 700px) {
     h1 {
       font-size: 3rem;
