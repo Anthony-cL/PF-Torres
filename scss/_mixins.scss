@@ -21,4 +21,5 @@
 @mixin banner {
   display: flex;
   justify-content: center;
+  font-family: $fuente-principal;
 }
