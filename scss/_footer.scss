@@ -18,13 +18,16 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   footer {
     .footer__text {
-      font-size: 13px;
+      font-size: 10px;
+    }
+    .footer__iconos {
+      margin: 2px;
     }
     .footer__iconos img {
-      margin: 2px;
+      width: 15px;
     }
   }
 }
