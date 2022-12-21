@@ -20,6 +20,9 @@ footer {
 
 @media (max-width: 500px) {
   footer {
+    .container_footer {
+      width: 95%;
+    }
     .footer__text {
       font-size: 10px;
     }
