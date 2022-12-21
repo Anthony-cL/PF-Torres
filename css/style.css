@@ -60,6 +60,14 @@ footer .footer__iconos img {
   width: 25px;
 }
 
+@media (max-width: 700px) {
+  footer .footer__text {
+    font-size: 13px;
+  }
+  footer .footer__iconos img {
+    margin: 2px;
+  }
+}
 .container1 {
   margin: auto;
   max-width: 1320px;

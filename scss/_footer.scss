@@ -17,3 +17,14 @@ footer {
     width: 25px;
   }
 }
+
+@media (max-width: 700px) {
+  footer {
+    .footer__text {
+      font-size: 13px;
+    }
+    .footer__iconos img {
+      margin: 2px;
+    }
+  }
+}
