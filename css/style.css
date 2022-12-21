@@ -191,6 +191,10 @@ footer .footer__iconos img {
   margin-top: 3rem;
 }
 
+.container__form {
+  width: 75%;
+}
+
 .banner-contacto h3:hover {
   color: rgb(153, 168, 168);
 }
